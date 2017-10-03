@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+declare var ApiAIPlugin: any;
+
 @Component({
   selector: 'page-chat',
   templateUrl: 'chat.html'
@@ -8,6 +10,7 @@ import { NavController } from 'ionic-angular';
 export class ChatPage {
 
   constructor(public navCtrl: NavController) {
+  
 
   }
 
